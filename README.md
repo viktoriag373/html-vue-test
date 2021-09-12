@@ -1,7 +1,7 @@
 # html vue test
 
 ## Objective
-Provide a responsive presentation of files and folders in any style of your choice
+Provide a responsive presentation of files and folders in any style of your choice and publish on github pages
 
 ## Structure
 - **data/list.js** - data that describes the list of files and folders
@@ -25,6 +25,7 @@ npm run build
 ```
 ---
 ## References
+- https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 - https://www.google.com/search?q=file+explorer+ui&tbm=isch
 - https://dribbble.com/search/file%20explorer
 - https://dribbble.com/tags/file_explorer
