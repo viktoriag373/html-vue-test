@@ -1,5 +1,5 @@
 <template>
-  <FolderView name="$" :folders="folders" :files="files" />
+	<FolderView name=".." v-bind:folders="folders" v-bind:files="files" />
 </template>
 
 <script>
@@ -16,9 +16,21 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
 }
+body {
+	font-size: 18px;
+	#app {
+		font-family: Avenir, Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		background: #252525;
+		width: 100%;
+		padding: 20px;
+	}
+}
+
 </style>
